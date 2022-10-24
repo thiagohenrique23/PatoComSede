@@ -52,9 +52,6 @@ const Header = () => {
             <Navbar bg="dark" variant="#dark" style={{ height: "60px" }}>
                 <Container>
                     <NavLink to="/" className="text-decoration-none text-light mx-3"><img style={{width:30, height:30}} src='https://static.vecteezy.com/system/resources/previews/001/202/848/non_2x/duck-emoji-tounge-png.png' alt='logo'/></NavLink>
-                    <Nav className="me-auto">
-                        <NavLink to="/" className="text-decoration-none text-light">Início</NavLink>
-                    </Nav>
 
                     <Badge badgeContent={getdata.length} color="primary"
                         id="basic-button"
@@ -86,7 +83,7 @@ const Header = () => {
                                     <thead>
                                         <tr>
                                             <th>Foto</th>
-                                            <th>Nome do restaurante</th>
+                                            <th>Seu Carrinho</th>
                                         </tr>
                                     </thead>
                                     <tbody>

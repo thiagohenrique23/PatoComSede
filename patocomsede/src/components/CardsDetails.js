@@ -55,7 +55,7 @@ const remove = (item)=>{
   return (
     <>
       <div className="container mt-2">
-        <h2 className='text-center'>Página de detalhes de itens
+        <h2 className='text-center'>Detalhes 🦆🤤
         </h2>
 
         <section className='container mt-3'>
@@ -72,7 +72,7 @@ const remove = (item)=>{
               <Table>
                 <tr>
                   <td>
-                    <p> <strong>Tipo</strong>  : {ele.rname}</p>
+                    <p> <strong>Nome</strong>  : {ele.rname}</p>
                     <p> <strong>Preço</strong>  : R${ele.price}</p>
                     <p> <strong>Total</strong>  :R$  {ele.price * ele.qnty}</p>
                     <div className='mt-5 d-flex justify-content-between align-items-center' style={{width:100,cursor:"pointer",background:"#ddd",color:"#111"}}>
